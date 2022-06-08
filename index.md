@@ -12,9 +12,7 @@ permalink: /
 {: .fh-default }
 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
 {: .fs-3 }
-
 <br />
-
 - 🌐 Blog : [100sang.net](https://100sang.net)
 - 👩‍💻 GitHub : [github.com/100sang](https://github.com/100sang)
 - 💌 E-mail : [100sang.net@gmail.com](mailto:100sang.net@gmail.com)
