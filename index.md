@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About Me
 nav_order: 1
 description: "감성 엔지니어 100SANG"
@@ -56,5 +56,3 @@ permalink: /
 - Engineer Information Processing <sub>Jun 1, 2009</sub>
 - Linux Master <sub>March 30, 2007</sub>
 {: .fs-3 }
-
-{% include footer_adsense.html %}
