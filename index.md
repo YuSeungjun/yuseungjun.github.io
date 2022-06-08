@@ -9,9 +9,9 @@ permalink: /
 ## Welcome to 100sang.github.io
 
 ### Software Engineer who loves coffee and scribble
-
+{: .fh-default }
 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
-{: .fs-3 .fh-default }
+{: .fs-3 }
 
 <br />
 
