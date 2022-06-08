@@ -10,7 +10,7 @@ permalink: /
 
 ### Software Engineer who loves coffee and scribble
 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
-{: .fs-3 .lh-default}
+{: .fs-3 .lh-default }
 
 <br />
 
@@ -57,4 +57,4 @@ permalink: /
 - Specialist-Multimedia Contents Producing 	<sub>November 23, 2012</sub>
 - Engineer Information Processing <sub>Jun 1, 2009</sub>
 - Linux Master <sub>March 30, 2007</sub>
-{: .fs-3 .fw-300 }
+{: .fs-3 }
