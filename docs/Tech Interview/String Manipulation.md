@@ -2,6 +2,7 @@
 layout: page
 title: String Manipulation
 parent: Algorithm
+grand_parent: Techh Interview
 permalink: /tech-interview/algorithm/string-manipulation
 ---
 

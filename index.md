@@ -18,7 +18,7 @@ permalink: /
 
 ---
 
-#### TABLE OF CONTENTS
+#### Table of Contents
 
 * [Tech Stack](/tech-stack)
 * [Technical Writing](/technical-writing)
