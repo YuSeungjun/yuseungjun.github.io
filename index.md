@@ -35,8 +35,6 @@ permalink: /
 - Graphic & Productivity Tools: Notion, Slack, Wiki, Jira etc.,
 {: .fs-3 }
 
-{% include contents_adsense.html %}
-
 ##### Ongoing Learning 
 
 - Full Stack Development : Vue.js, Typescript, Jamstack etc.,
