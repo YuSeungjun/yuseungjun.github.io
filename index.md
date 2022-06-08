@@ -10,7 +10,7 @@ permalink: /
 
 ### Software Engineer who loves coffee and scribble
 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
-{: .fs-3 .pt-3 .pb-6 }
+{: .fs-3 .pt-2 .pb-6 }
 
 - 🌐 Blog : [100sang.net](https://100sang.net)
 - 👩‍💻 GitHub : [github.com/100sang](https://github.com/100sang)
