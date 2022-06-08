@@ -56,3 +56,5 @@ permalink: /
 - Engineer Information Processing <sub>Jun 1, 2009</sub>
 - Linux Master <sub>March 30, 2007</sub>
 {: .fs-3 }
+
+{% include adsense.html %}
