@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Tech Stack
 nav_order: 2
 has_children: true

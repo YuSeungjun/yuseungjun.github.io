@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Algorithm
 parent: Tech Interview
 nav_order: 1
+has_children: true
+permalink: /tech-interview/algorithm
 ---
 
 ## Tech Interview

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Technical Writing
 nav_order: 3
 has_children: true
