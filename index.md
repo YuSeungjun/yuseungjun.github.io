@@ -6,18 +6,16 @@ description: "감성 엔지니어 100SANG"
 permalink: /
 ---
 
-# About Me
+## Welcome to 100sang.github.io
 
-## Software Engineer who loves :coffee: and :black_nib:
-### 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
-
-<br />
-
-- :globe_with_meridians: [100sang.net](https://100sang.net)
-- :octocat: [100sang's Github](https://github.com/100sang)
-- :email: 100sang.net@gmail.com
+### Software Engineer who loves coffee and scribble
+#### 커피, 끄적거림, 기록하기를 좋아하는 감성 엔지니어
 
 <br />
+
+- 🌐 Blog : [100sang.net](https://100sang.net)
+- 👩‍💻 GitHub : [github.com/100sang](https://github.com/100sang)
+- 💌 E-mail : 100sang.net@gmail.com
 
 ---
 
@@ -30,24 +28,21 @@ permalink: /
 
 ---
 
-Technical Skills
-{: .fs-4 .fw-500 }
+##### Technical Skills
 
 - Strong: Vue.js, Javascript, JQuery, HTML5, CSS3, Bootstrap
-- Knowledgeable: Azure, API, Node.js, Java, JSP, Python, Webpack, Datadog, Jennifer
+- Knowledgeable: Azure, API, Node.js, Ansible, Python, Terraform, Datadog, APM
 - IDE & Source Control: VS Code, Eclipse, Git, Postman
 - Graphic & Productivity Tools: Notion, Slack, Wiki, Jira etc.,
 
-_Ongoing Learning_ 
-{: .fs-4 }
+##### _Ongoing Learning_ 
 
 - Full Stack Development : Vue.js, Typescript, Jamstack etc.,
 - Public Cloud Services and Design
 
 ---
 
-Certifications
-{: .fs-4 .fw-500 }
+#### Certifications
 
 - AZ-700 Azure Network Engineer Associate <sub>January 13, 2022</sub>
 - AZ-500 Azure Security Engineer Associate <sub>November 30, 2021</sub>
