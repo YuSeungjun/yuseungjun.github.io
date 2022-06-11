@@ -4,11 +4,12 @@ layout: default
 
 {{ content }}
 
-{% if page.parent %}
+{% if page.has_children == true %}
   <hr />
   <h2 class="text-delta">Table of contents</h2>
+  {{ pages_list }}
   <ul>
-    {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+    {%- assign children_list = pages_list -%}
     {% for child in children_list %}
       <li>
         <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
