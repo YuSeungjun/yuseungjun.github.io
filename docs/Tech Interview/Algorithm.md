@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Algorithm
 parent: Tech Interview
 nav_order: 1
@@ -12,3 +12,13 @@ permalink: /tech-interview/algorithm
 {: .fs-3 .pt-2 .pb-1 }
 
 {: .no_toc }
+
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+{% include footer_adsense.html %}
