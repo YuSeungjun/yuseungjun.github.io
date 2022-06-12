@@ -19,14 +19,14 @@ permalink: /tech-interview/algorithm/string-manipulation
 ---
 
 Easy
-{: .label .label-green .ml-0 .mb-2}
+{: .label .label-green .ml-0 .mb-1}
 
 ##### 125. Valid Palindrome [Link](https://leetcode.com/problems/valid-palindrome){:target="_blank"}
 유효한 팰린드롬 
-{: .fs-3 .pt-2 }
+{: .fs-3 .py-2 }
 
 
-#### Example
+#### Description
 
 문자열 s가 주어질 때 palindrome이면 true를 반환하고 그렇지 않으면 false를 반환:
 {: .fs-3 .pt-2 }
@@ -39,26 +39,27 @@ Input: s = "race a car"
 Output: false
 ```
 
+<Br />
 
 #### Explanation
 
-- `Palindrome (회문 문자열)`이란 앞뒤가 똑같은 단어나 문장으로, 뒤집어도 같은 말이 되는 단어 or 문장을 의미 ex. 기러기
+- `Palindrome (회문 문자열)`이란 앞뒤가 똑같은 단어나 문장으로 뒤집어도 같은 말이 되는 단어 or 문장을 의미 <small>ex. 기러기</small>
 - 대소문자 여부를 구분하지 않으며 영문자, 숫자만을 대상
 - s = " "인 경우 영숫자가 아닌 문자 제거한 후 빈 문자열이 ""가 되므로, 앞뒤가 동일한 회문 문자열이됨
 {: .fs-3 .pt-2 }
 
-<div class="code-example" markdown="1">
+<hr />
 
 ###### Python3
 
-#### Solution 1: isalnum() <sup>(298 ms)</sup>
+Solution 1: isalnum() <small>(298 ms)</small>
+{: .fs-2 .fw-400 }
 
-- [isalnum()](https://www.w3schools.com/python/ref_string_isalnum.asp)은 문자가 알파벳 문자(a-z)와 숫자(0-9)를 의미하는 영숫자이면 True를 반환. 영숫자가 아닌 문자의 경우 (ex. (공백)!#%&? 등) False 반환
-{: .fs-3 .pt-2 }
+- [isalnum()](https://www.w3schools.com/python/ref_string_isalnum.asp){:target="_blank"}은 문자가 알파벳 문자(a-z)와 숫자(0-9)를 의미하는 영숫자이면 True를 반환. 영숫자가 아닌 문자의 경우 <small>ex. (공백)!#%&? 등</small> False 반환
+{: .fs-4 .pt-2 }
 
 ```python
 def isPalindrome(self, s: str) -> bool:
-    
     letters = []
 
     for char in s:
@@ -74,16 +75,16 @@ def isPalindrome(self, s: str) -> bool:
 
 <Br />
 
-#### Solution 2: isalnum() + Slicing <sup>(46 ms)</sup>
+Solution 2: isalnum() + Slicing <small>(46 ms)</small>
+{: .fs-2 .fw-400 }
 
-- [Slicing](https://www.w3schools.com/python/python_strings_slicing.asp)을 사용하여 위치를 지정하면 해당 위치의 배열 포인터를 얻게 되며 이를 통해 연결된 객체를 찾아 실제 값을 반환
-- 슬라이스 구문을 사용하여 문자를 반환하는 것이 매우 빠르므로 문자열 조작시에는 슬라이싱을 우선으로 사용하는 편이 속도 개선에 유리
-- `[::-1]`을 사용하면 문자를 뒤집을 수 있음
+- [Slicing](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}을 사용하여 위치를 지정하면 해당 위치의 배열 포인터를 얻으며 이를 통해 연결된 객체를 찾아 실제 값을 반환
+- 슬라이스 구문을 사용하여 문자를 반환하는 경우 매우 빠르므로 문자열 조작시 슬라이싱을 우선으로 사용하는 편이 속도 개선에 유리
+- `[::-1]`을 사용하는 경우 문자를 뒤집을 수 있음 ex. 안녕하세요 = 요세하녕안
 {: .fs-3 .pt-2 }
 
 ```python
 def isPalindrome(self, s: str) -> bool:
-
      s = [char for char in s.lower() if char.isalnum()]
      return s == s[::-1]
 ```
@@ -91,11 +92,11 @@ def isPalindrome(self, s: str) -> bool:
 
 ---
 
+Easy
+{: .label .label-green .ml-0 .mb-1}
+
 ##### 344. Reverse String [Link](https://leetcode.com/problems/reverse-string){:target="_blank"}
 문자열 뒤집기 
-{: .fs-2 .pt-2 }
-
-Easy
-{: .label .label-green .ml-0 .mt-2}
+{: .fs-2 .py-2 }
 
 ---
