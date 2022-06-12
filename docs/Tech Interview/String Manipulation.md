@@ -17,13 +17,12 @@ permalink: /tech-interview/algorithm/string-manipulation
 {: .fs-3 .pt-2 }
 
 ---
+Easy
+{: .label .label-green .ml-0 .mb-1}
 
 ##### 125. Valid Palindrome [Link](https://leetcode.com/problems/valid-palindrome){:target="_blank"}
 유효한 팰린드롬 
-{: .fs-3 .pt-2 .pb-2 }
-
-Easy
-{: .label .label-green .ml-0 .mb-3}
+{: .fs-3 .pt-2 .pb-3 }
 
 #### Description
 
@@ -52,9 +51,9 @@ Output: false
 ##### Python3
 
 Solution 1: isalnum() <small>(298 ms)</small>
-{: .fs-3 .fw-400 .pt-3}
+{: .fs-3 .fw-400 .pt-4 }
 
-- [isalnum()](https://www.w3schools.com/python/ref_string_isalnum.asp){:target="_blank"}은 문자가 알파벳 문자(a-z)와 숫자(0-9)를 의미하는 영숫자이면 True를 반환. 영숫자가 아닌 문자의 경우 <small>ex. (공백)!#%&? 등</small> False 반환
+- [isalnum()](https://www.w3schools.com/python/ref_string_isalnum.asp){:target="_blank"}은 문자가 알파벳 문자(a-z)와 숫자(0-9)를 의미하는 영숫자이면 True를 반환. 영숫자가 아닌 문자의 경우 False 반환 <small>ex. (공백)!#%&? 등</small>
 {: .fs-3 .pt-2 }
 
 ```python
@@ -79,7 +78,7 @@ Solution 2: Slicing <small>(46 ms)</small>
 
 - [Slicing](https://www.w3schools.com/python/python_strings_slicing.asp){:target="_blank"}을 사용하여 위치를 지정하면 해당 위치의 배열 포인터를 얻으며 이를 통해 연결된 객체를 찾아 실제 값을 반환
 - 슬라이스 구문을 사용하여 문자를 반환하는 경우 매우 빠르므로 문자열 조작시 슬라이싱을 우선으로 사용하는 편이 속도 개선에 유리
-- `[::-1]`을 사용하는 경우 문자를 뒤집을 수 있음 ex. 안녕하세요 = 요세하녕안
+- `[::-1]`을 사용하는 경우 문자를 뒤집을 수 있음 <small>ex. 안녕하세요 = 요세하녕안</small>
 {: .fs-3 .pt-2 }
 
 ```python
