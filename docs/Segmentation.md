@@ -1,10 +1,10 @@
 ---
-layout: index
+layout: default
 title: Segmentation
 nav_order: 4
 has_children: true
 description: "Seungjun's Tech Interview"
-permalink: /segmentation
+permalink: /docs/segmentation
 ---
 
 ## 연구 노트
