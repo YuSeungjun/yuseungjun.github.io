@@ -5,4 +5,4 @@ parent: Segmentation
 nav_order: 1
 ---
 
-# 2023-01-11
+# 2023-01-11 연구일지
