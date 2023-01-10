@@ -1,8 +1,8 @@
 ---
-layout: page
-title: About Me
+layout: default
+title: Home
 nav_order: 1
-description: "감성 엔지니어 100SANG"
+description: "감성 엔지니어"
 permalink: /
 ---
 
