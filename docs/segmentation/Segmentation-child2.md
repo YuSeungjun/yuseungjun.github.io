@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 2023년-1월-12일
 parent: Segmentation
 nav_order: 2
