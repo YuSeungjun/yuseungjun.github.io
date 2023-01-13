@@ -3,7 +3,7 @@ layout: index
 title: Tech Interview
 nav_order: 4
 has_children: true
-description: "100sang's Tech Interview"
+description: "연구노트"
 permalink: /tech-interview
 ---
 
